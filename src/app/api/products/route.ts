@@ -4,9 +4,12 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
     try {
-        const response = client.fetch(`*[_type == "products"]`);
+        const response = await client.fetch(`*[_type == "products"]`);
+        console.log(response);
+        
         return NextResponse.json({
             data : response,
+
             err : false ,
             message : "data fetch successfully" 
 
