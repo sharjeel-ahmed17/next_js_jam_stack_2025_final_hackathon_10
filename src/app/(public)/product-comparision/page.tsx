@@ -1,23 +1,21 @@
-// import CheckoutForm from '@/components/checkout/CheckoutForm'
 import { Breadcrumb } from '@/components/reuseable/Hero2'
 import Services from '@/components/reuseable/Services'
+import React from 'react'
 
-
-const Checkout = () => {
+const ProductComparision = () => {
   return (
     <div>
        <Breadcrumb
-            title="Checkout"
+            title="Product Comparision"
             backgroundImage="/images/hero-2.jpg" 
             links={[
               { name: "Home", href: "/" },
-              { name: "Checkout", href: "/checkout" },
+              { name: "Product Comparision", href: "/product-comparision" },
             ]}
           />
-          {/* <CheckoutForm /> */}
-      <Services />
+        <Services />
     </div>
   )
 }
 
-export default Checkout
+export default ProductComparision

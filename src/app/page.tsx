@@ -4,7 +4,6 @@ import Category from "@/components/home/category/Category";
 import FeaturedProducts from "@/components/home/featuresProducts/FeaturedProducts";
 import Hero from "@/components/home/hero/Hero";
 import ImageGallery from "@/components/home/imageGallery/ImageGallery";
-import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Home = () => {
@@ -24,6 +23,7 @@ const Home = () => {
           secondary
         </Button>
       </div> */}
+     
       <Hero />
       <Category />
       <FeaturedProducts />
